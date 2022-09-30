@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Ubuntu+Condensed&display=swap');
+p{
+    color: blanchedalmond;
+    font-family: 'Courgette', cursive;
+    font-size:10em;
+    margin-left: 5em;
+    margin-right: 20em; 
+  }
+  h2{
+    text-align: left;
+  }
+  #about{
+    padding-top: 10px;
+  }
