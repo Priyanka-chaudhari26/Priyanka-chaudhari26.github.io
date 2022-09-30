@@ -1,0 +1,39 @@
+.footer{
+  color: antiquewhite;
+  margin-top: 1rem;
+  padding-left: 10em;
+  background-color:black;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+}
+.sociallinks{
+  display:inline;
+  padding-right: 0;
+  padding-left: 0.2em;
+}
+h3{
+  padding-left: 420px;
+  font-size:xx-large;
+  padding-bottom: 0;
+}
+b{
+  font-size: larger;
+}
+p{
+  text-align: center;
+  padding: 0.1rem;
+  font-size: x-large;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.copyright{
+  padding-left:22em;
+}

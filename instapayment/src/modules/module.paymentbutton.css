@@ -1,0 +1,39 @@
+.makepayment{
+    padding-left: 5em;
+    padding-top: 5em;
+    
+    
+}
+.pay{
+    
+    background-color: rgb(47, 167, 127);
+    color: white;
+    size: 50px;
+    position: absolute;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    padding:15px;
+    min-height:30px; 
+    min-width: 130px;
+}
+.pay:hover {
+    background-color:rgb(27, 131, 97);
+    transition: 500ms linear;
+    transform: scale(1.1);
+}
+.paymentpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 28%;
+    max-width: 100%;
+    
+}
+@media screen and (max-width:810px) {
+    .paymentpage{
+       
+        padding-left: 20%;
+        height: fit-content;
+    }
+}
