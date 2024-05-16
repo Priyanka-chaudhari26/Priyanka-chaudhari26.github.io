@@ -13,8 +13,8 @@ function DonationPage() {
         <br />
         <h1>Welcome to The Sparks Foundation Donation Page</h1>
         <div className="imgwrap">
-          <Carousel fade variant="dark">
-            <Carousel.Item>
+          <Carousel fade data-bs-theme="dark" >
+            <Carousel.Item interval={200}>
               <img
                 className="d-block w-100 donate"
                 src={donate}
@@ -22,13 +22,13 @@ function DonationPage() {
               />
             </Carousel.Item>
 
-            <Carousel.Item>
+            <Carousel.Item interval={1000}>
               <img 
                 className="d-block w-100" 
                 src={quote2} 
                 alt="second slide" />
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={1000}>
               <img 
                 className="d-block w-100"
                 src={quote3} 
